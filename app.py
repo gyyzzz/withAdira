@@ -14,4 +14,4 @@ def index():
     return render_template('index.html', days_passed=days_passed, anniversary_date=anniversary_date.strftime("%Y-%m-%d %H:%M:%S"))
 
 if __name__ == '__main__':
-    app.run(host='',port=)
+    app.run(host='127.0.0.1',port=8888)
